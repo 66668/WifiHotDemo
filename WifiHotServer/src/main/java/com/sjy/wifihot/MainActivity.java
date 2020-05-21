@@ -68,9 +68,9 @@ public class MainActivity extends PermissionsActivity {
                     builder.append("热点已打开，... \n");
                     tv_content.setText(builder.toString());
                     //开启监听线程，监听client端的成功回调
-                    new ListenerThread(wifiPort, mHandler).start();
+//                    new ListenerThread(wifiPort, mHandler).start();
                     //server端发送socket连接,并开启通讯线程
-                    createServerSocket();
+//                    createServerSocket();
                 } else {
                     builder.append("热点打开失败，... \n");
                     tv_content.setText(builder.toString());

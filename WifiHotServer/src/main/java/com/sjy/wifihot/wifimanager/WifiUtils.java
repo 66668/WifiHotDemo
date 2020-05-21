@@ -254,7 +254,7 @@ public class WifiUtils {
                 }
             }
         } catch (Exception e) {
-            Log.e(TAG, "获取IP地址失败");
+            Log.e(TAG, "获取IP地址失败"+e.toString());
         }
         return addresses;
     }
